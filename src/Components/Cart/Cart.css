@@ -1,0 +1,51 @@
+.speci{
+    display: flex;
+    padding: 5px;
+    
+}
+.s{
+    padding: 6px;
+    
+
+}
+.s h2{
+    font-weight: 550;
+    border-bottom: 2px solid black;
+}
+.he{
+   margin-left: 80%;
+}
+
+
+.button{
+    position: absolute;
+    left: 36%;
+    padding: 12px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: rgb(64, 192, 192);
+    border: none;
+    color: white;
+   
+}
+.to{
+    margin-left: 66%;
+
+}
+.sp{
+    position: absolute;
+    bottom: 67%;
+    margin-left: 78%;
+
+}
+.btn{
+   
+    
+    margin-left: 80%;
+}
+.head{
+   
+    font-size: 30px;
+    margin-left: 40%;
+}
