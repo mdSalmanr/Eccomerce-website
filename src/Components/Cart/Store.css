@@ -1,0 +1,63 @@
+.cart-setting{
+    background: transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 2px solid teal;
+    border-radius: 7px;
+
+}
+.list1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+
+}
+.main{
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 40%;
+    padding: 0 100px;
+    align-items: center;
+    
+    gap: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+   
+    
+    
+}
+.item1{
+   width: 100%;
+    
+    
+}
+.music{
+    margin-bottom:50px;
+}
+.music h1{
+    margin-left: 48%;
+    margin-top: 33px;
+}
+.gene{ 
+    height: 190px;    
+    background-color: grey;   
+}
+.gene h1{
+    
+    color: white;
+    margin-left: 32%;
+    font-size: 100px;
+}
+.list{
+   
+    margin-left: 30%;
+}
+.cart{
+    margin-left: 30%;
+    display: flex;
+    gap: 170px;
+}

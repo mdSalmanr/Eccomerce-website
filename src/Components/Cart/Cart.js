@@ -1,24 +1,26 @@
 import Modal from "../UI/Modal";
 import './Cart.css'
+import ItemList from "./ItemList";
 
-const Cart = (props)=>{
+const Cart = ({save,onClose})=>{
     return(
         <Modal>
-            <button className="btn" onClick={props.onClose} >remove</button>
+           
+            <button className="btn" onClick={onClose} >
+            <i class="fa-solid fa-xmark"></i>
+            </button>
             <h2 className="head" >Cart</h2>
             
             <div className="speci" >
-                <div className="s" ><h2>ITEM</h2></div>
-                <div className="s" ><h2>PRICE</h2></div>
-                <div className="s" ><h2>QUANTITY</h2></div>
-
+                <div className="s"id="item"><h3>ITEM</h3></div>
+                <div className="s price" ><h3>PRICE</h3></div>
+                <div className="s qunti" ><h3>QUANTITY</h3></div>
             </div>
-            <h2 className="to" >Total</h2>
-            <span className="sp"  >$0</span>
-            
-             
-
-            <button className="button" >PURCHASE</button>
+            <ItemList save={save} />
+            <div className="price1" >
+                <h2>Total<span>${0}</span> </h2>
+            </div>
+            <button className="button1" type="submit" >PURCHASE</button>
         </Modal>
     )
 }

@@ -1,0 +1,39 @@
+.item{
+    width: 100%;
+    display: flex;
+    gap: 70px;
+    border: none;
+    
+}
+.item .amount{
+    display: flex;
+    width: 50px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    
+}
+.amount p{
+    font-size: 20px;
+}
+
+.img{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    height: 85px;
+   gap: 10px;
+   border-bottom: 1px solid black;
+}
+.img img{
+    width: 80px;
+    height: 80px;
+}
+.quantity{
+    border-bottom: 1px solid black;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.quantity button{
+    height: fit-content;
+}

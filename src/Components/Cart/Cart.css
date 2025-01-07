@@ -1,51 +1,44 @@
-.speci{
-    display: flex;
-    padding: 5px;
-    
-}
 .s{
-    padding: 6px;
+    border-bottom: 1px solid black;
     
-
 }
-.s h2{
-    font-weight: 550;
-    border-bottom: 2px solid black;
-}
-.he{
-   margin-left: 80%;
+#item{
+    width: 150px;
 }
 
-
-.button{
+.speci{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    padding-left: 8px;
+    
+    margin-bottom: 10px;
+}
+.price1{
     position: absolute;
-    left: 36%;
-    padding: 12px 15px;
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 5px;
-    background-color: rgb(64, 192, 192);
-    border: none;
-    color: white;
-   
-}
-.to{
-    margin-left: 66%;
-
-}
-.sp{
-    position: absolute;
-    bottom: 67%;
-    margin-left: 78%;
-
+    left: 70%;
+    margin-top: 18px;   
 }
 .btn{
+   margin-left: 90%;
+   margin-bottom: 20px;
    
-    
-    margin-left: 80%;
+}
+.btn i{
+    font-size: 20px;
 }
 .head{
-   
-    font-size: 30px;
-    margin-left: 40%;
+    margin-left: 130px;
+    margin-bottom: 22px;
+}
+.button1{
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(31, 199, 199);
+    padding: 11px 15px;
+    margin-top: 50px;
+    margin-left: 130px;
 }
